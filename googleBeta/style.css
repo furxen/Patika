@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body ul {
+  list-style-type: none;
+}
+
+header {
+  margin-bottom: 5px;
+}
+
+header .googleImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 90px;
+}
+
+header .searchContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #EEEEEE;
+}
+
+header .searchContainer .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: -10px;
+}
+
+header .searchContainer .searchText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+header .searchContainer .searchText .text {
+  border: 2px solid black;
+  -webkit-box-shadow: 10px 0px 10px 0px;
+          box-shadow: 10px 0px 10px 0px;
+  width: 50%;
+}
+
+header .searchContainer .searchButtons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+header .searchContainer .searchButtons .googleSearch {
+  width: 24%;
+}
+
+header .searchContainer .searchButtons .thirdSearch {
+  width: 24%;
+}
+
+footer .firstCol {
+  background: #7EE5DA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .secondCol {
+  background: #7EE5DA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .thirdCol {
+  background: #7EE5DA;
+}
+
+footer .thirdCol p {
+  text-align: center;
+}
+
+footer .copyright {
+  margin-top: 20px;
+}
+
+footer .copyright p {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
