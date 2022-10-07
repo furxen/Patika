@@ -1,0 +1,149 @@
+ul {
+  list-style-type: none;
+}
+
+header {
+  margin-bottom: 115px;
+}
+
+header .container-fluid ul {
+  margin-top: 20px;
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 24px;
+}
+
+header .container-fluid ul li a {
+  color: black;
+  line-height: 24px;
+  font-size: 20px;
+}
+
+header .container-fluid ul li a img {
+  border-radius: 50px;
+}
+
+section .googleImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 24px;
+}
+
+section .googleText {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .googleText .searchContainer {
+  width: 40%;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 10px 0px;
+}
+
+section .googleText .searchContainer .searchText input:focus {
+  outline: none;
+}
+
+section .googleText .searchContainer .searchText .text {
+  border: 1px solid transparent;
+  width: 100%;
+}
+
+section .googleText .searchContainer .searchVoid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+section .googleButtons .firstButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+section .googleButtons .firstButton .searchGoogle {
+  background: #f8f9fa;
+  border: none;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  color: #3c4043;
+  font-size: 14px;
+  text-align: center;
+}
+
+section .googleButtons .secondButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+section .googleButtons .secondButton .happyGoogle {
+  background: #f8f9fa;
+  border: none;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  color: #3c4043;
+  font-size: 14px;
+  text-align: center;
+}
+
+footer {
+  background: #F8F9FA;
+  width: 99%;
+}
+
+footer .firstFooter ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+footer .firstFooter ul li a {
+  color: black;
+}
+
+footer .secondFooter ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding-right: 50px;
+  gap: 20px;
+}
+
+footer .secondFooter ul li a {
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */

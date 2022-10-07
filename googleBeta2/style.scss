@@ -1,0 +1,137 @@
+ul {
+    list-style-type: none;
+}
+
+
+header {
+    margin-bottom: 115px;
+
+    .container-fluid {
+        ul {
+            margin-top: 20px;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 24px;
+
+            li {
+                a {
+                    color: black;
+                    line-height: 24px;
+                    font-size: 20px;
+
+                    img {
+                        border-radius: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+section {
+    .googleImg {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .googleText {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+
+        .searchContainer {
+            width: 40%;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            padding: 10px 0px;
+
+            .searchText {
+                input:focus {
+                    outline: none;
+                }
+
+                .text {
+                    border: 1px solid transparent;
+                    width: 100%;
+                }
+            }
+
+            .searchVoid {
+                display: flex;
+                justify-content: end;
+            }
+        }
+
+
+    }
+
+    .googleButtons {
+        .firstButton {
+            display: flex;
+            justify-content: end;
+
+            .searchGoogle {
+                background: #f8f9fa;
+                border: none;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                color: #3c4043;
+                font-size: 14px;
+                text-align: center;
+                
+            }
+
+
+        }
+
+        .secondButton {
+            display: flex;
+            justify-content: baseline;
+
+            .happyGoogle {
+                background: #f8f9fa;
+                border: none;
+                padding: 0 16px;
+                line-height: 27px;
+                height: 36px;
+                color: #3c4043;
+                font-size: 14px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+footer{
+    background:#F8F9FA;
+    width: 99%;
+    .firstFooter{
+        ul{
+            display: flex;
+
+            gap: 20px;
+            li{
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+    .secondFooter{
+        ul{
+            display: flex;
+            justify-content: end;
+            padding-right: 50px;
+            gap: 20px;
+            li{
+                a{
+                    color: black;
+                }
+            }
+        }
+    }
+}
