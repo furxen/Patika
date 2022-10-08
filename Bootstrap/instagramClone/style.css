@@ -1,0 +1,271 @@
+@charset "UTF-8";
+ul {
+  list-style-type: none;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  height: 54px;
+  border-bottom: 1px solid black;
+}
+
+.header .navContainer .instagramImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .navContainer .instagramSearchContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .navContainer .instagramSearchContainer .instagramSearch {
+  background: #EFEFEF;
+  border-radius: 8px;
+  padding: 0px 5px;
+}
+
+.header .navContainer .instagramSearchContainer .instagramSearch input {
+  background: #EFEFEF;
+  border: none;
+  text-align: center;
+}
+
+.header .navContainer .instagramMenü .instagramMenüContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .navContainer .instagramMenü .instagramMenüContainer ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+}
+
+.header .navContainer .instagramMenü .instagramMenüContainer ul li {
+  margin-right: 10px;
+}
+
+.header .navContainer .instagramMenü .instagramMenüContainer ul li a {
+  color: black;
+  font-size: 24px;
+}
+
+.header .navContainer .instagramMenü .instagramMenüContainer ul li a img {
+  border-radius: 100px;
+}
+
+.section {
+  padding-top: 100px;
+}
+
+.section .content .storyContent {
+  border: 1px solid #5e5b5b;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.section .content .storyContent .story a {
+  display: inline;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .content .storyContent .story a img {
+  border: 2px solid red;
+  border-radius: 100px;
+}
+
+.section .content .storyContent .story a span {
+  color: black;
+}
+
+.section .content .shipment {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #5e5b5b;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.section .content .shipment .userInformation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0px;
+}
+
+.section .content .shipment .userInformation .userSmallImg {
+  padding: 0;
+}
+
+.section .content .shipment .userInformation .userSmallImg img {
+  border-radius: 100px;
+  margin-left: 40px;
+}
+
+.section .content .shipment .userInformation .userName {
+  padding: 0;
+}
+
+.section .content .shipment .userInformation .userName p {
+  margin: 0px;
+}
+
+.section .content .shipment .userInformation .choice {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding: 0;
+}
+
+.section .content .shipment .userInformation .choice a {
+  color: black;
+  font-size: 18px;
+  margin-right: 40px;
+}
+
+.section .content .shipment .userContact .userLikeComment ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .content .shipment .userContact .userLikeComment ul li {
+  margin-right: 20px;
+  padding-left: 10px;
+}
+
+.section .content .shipment .userContact .userLikeComment ul li a {
+  color: black;
+  font-size: 20px;
+}
+
+.section .content .shipment .userContact .save {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.section .content .shipment .userContact .save a {
+  margin-right: 10px;
+  color: black;
+  font-size: 20px;
+}
+
+.section .content .shipment .userLikes .userLike {
+  padding-top: 10px;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .content .shipment .userLikes .userLike p {
+  margin-left: 15px;
+}
+
+.section .content .shipment .userComment ul {
+  padding: 0;
+}
+
+.section .content .shipment .userComment ul li {
+  padding-left: 25px;
+}
+
+.section .content .shipment .userComment ul li a {
+  color: black;
+}
+
+.section .profileFallow .profile {
+  padding: 20px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section .profileFallow .profile .profileName a {
+  color: black;
+}
+
+.section .suggestions ul {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+.section .suggestions ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .suggestions ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section .suggestions ul li a img {
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+.section .suggestions ul li a p {
+  color: black;
+  margin-right: 80px;
+}
+/*# sourceMappingURL=style.css.map */
