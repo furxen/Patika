@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pizza Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1>PizzaForm</h1>
+    <form action="#">
+        <label for="pizzaName">Choose your pizza </label>
+        <select id="pizzaName" size="4">
+            <option value="20">Small Pizza</option>
+            <option value="30">Medium Pizza</option>
+            <option value="40">Large Pizza</option>
+            <option value="50">Mega Pizza</option>
+        </select>
+        <label for="pizzaContent">Select additional material </label>
+        <span>
+            <label for="additional__1">Olive</label>
+            <input type="checkbox" value="Olive" name="material" id="additional__1">
+            <label for="additional__2">Sausage</label>
+            <input type="checkbox" value="Sausage" name="material" id="additional__2">
+            <label for="additional__3">Corn</label>
+            <input type="checkbox" value="Corn" name="material" id="additional__3">
+            <label for="additional__4">Tomatoes</label>
+            <input type="checkbox" value="Tomatoes" name="material" id="additional__4">
+            <label for="additional__5">Cheese</label>
+            <input type="checkbox" value="Cheese" name="material" id="additional__5">
+            <label for="additional__6">Egg</label>
+            <input type="checkbox" value="Egg" name="material" id="additional__6">
+            <label for="additional__7">Mushrooms</label>
+            <input type="checkbox" value="Mushrooms" name="material" id="additional__7">
+        </span>
+        <label for="selectedMaterial">Selected additional materials </label>
+        <select id="selectedMaterial" size="5">
+
+        </select>
+        <label for="grupDiscount">Discount Code</label>
+        <span>
+            <label for="true">I have a discount code</label>
+            <input type="radio" id="kodTrue" value="true" name="grupDiscount" onchange="toogle()">
+            <label for="false">I don't have a discount code</label>
+            <input type="radio" id="kodFalse" value="false" name="grupDiscount" onchange="toogle()" checked>
+        </span>
+        <label for="discountCode">Enter discount code </label>
+        <input type="text" id="discountCode" disabled>
+        <input type="button" id="calculate" value="Calculate" onclick="calculation()">
+    </form>
+    <h2 id="conclusion"></h2>
+    <h2 id="resault"></h2>
+</body>
+</html>

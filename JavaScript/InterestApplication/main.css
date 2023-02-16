@@ -1,0 +1,30 @@
+body{
+    background-color: brown;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+form{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+label{
+    margin-bottom: 10px;
+    color: white;
+}
+input{
+    margin-bottom: 10px;
+    
+}
+select{
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+    color: chartreuse;
+}

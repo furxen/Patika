@@ -1,0 +1,33 @@
+body{
+    text-align: center;
+    background-color: brown;
+}
+h1{
+    color: white;
+    font-size: 35px;
+}
+h2{
+    color: white;
+    border-bottom: 1px solid white;
+}
+span{
+    display: flex;
+}
+#toDoList{
+    width: 40%;
+}
+#done{
+    width: 40%;
+}
+ul{
+    list-style: none;
+}
+li{
+    text-align: left;
+    color: palegoldenrod;
+    font-size: 20px;
+}
+img{
+    float: right;
+    width: 20px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>OrderForm</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body onload="fillInPieces();fillInInstallments();">
+    <h1>OrderForm</h1>
+    <form action="#">
+        <label for="productType">Select product type</label>
+        <span>
+            <input type="radio" name="productType" id="menProducts" value="M" onchange="bringProduct()">
+            <label for="menProducts">Man</label>
+            <input type="radio" name="productType" id="womenProducts" value="W" onchange="bringProduct()">
+            <label for="womenProducts">Women</label>
+        </span>
+        <label for="productList">Select product</label>
+        <select name="" id="productList" size="3">
+
+        </select>
+        <label for="productNumber">Select the number of products</label>
+        <select name="" id="productNumber">
+
+        </select>
+        <label for="productInstallment">Select product installment</label>
+        <select name="" id="productInstallment">
+
+        </select>
+        <input type="button" name="" id="totalPrice" value="Total Price" onclick="calculatePrice()">
+        <label for="productShipping">Product shipping fee</label>
+        <input type="text" id="productShipping" disabled>
+        <label for="subTotal">Subtotal</label>
+        <input type="text" id="subTotal" disabled>
+    </form>
+    <h2 id="conclusion"></h2>
+</body>
+</html>
